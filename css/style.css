@@ -1,0 +1,138 @@
+body {
+  background-color: #e9f7ef;
+  font-family: "Comic Sans MS", "Segoe UI", sans-serif;
+  color: #1e3a2f;
+  margin: 0;
+  padding: 40px 15px;
+}
+
+.container {
+  background-color: #ffffff;
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 24px 26px 30px 26px;
+  border: 3px solid #58b368;
+  border-radius: 14px;
+}
+
+h1 {
+  text-align: center;
+  color: #2e7d4f;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+#taskForm {
+  margin-bottom: 12px;
+}
+
+#taskInput {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #a8d8b9;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+#addTaskBtn {
+  background-color: #58b368;
+  color: #ffffff;
+  border: none;
+  padding: 9px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 6px;
+}
+
+#addTaskBtn:hover {
+  background-color: #46945a;
+}
+
+#loadSamplesBtn {
+  background-color: #ffffff;
+  color: #2e7d4f;
+  border: 1px solid #58b368;
+  padding: 9px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#loadSamplesBtn:hover {
+  background-color: #ddf2e4;
+}
+
+#taskMessage {
+  color: #c0392b;
+  font-size: 14px;
+  min-height: 18px;
+  margin: 8px 0;
+}
+
+.counts {
+  background-color: #f0faf3;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+
+.counts span {
+  margin-right: 15px;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  background-color: #fbfffc;
+  border: 1px solid #c6e8d1;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.task-text {
+  margin-right: 10px;
+}
+
+.task-item.completed .task-text {
+  text-decoration: line-through;
+  color: #9ab5a4;
+}
+
+.task-item button {
+  margin-left: 5px;
+  padding: 5px 11px;
+  font-size: 13px;
+  border-radius: 14px;
+  cursor: pointer;
+  border: 1px solid #b7ddc4;
+  background-color: #ffffff;
+}
+
+.complete-btn:hover {
+  background-color: #d6f3df;
+}
+
+.edit-btn:hover {
+  background-color: #fdf6d0;
+}
+
+.remove-btn:hover {
+  background-color: #f8d7d7;
+}
+
+.edit-input {
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #58b368;
+  border-radius: 14px;
+  margin-right: 10px;
+}
